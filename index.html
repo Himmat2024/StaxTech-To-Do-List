@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body>
+  <button class="dark-toggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+
+  
+  <main class="container" role="main" aria-label="To-Do List Application">
+    <h1>🗓️ Modern To-Do List</h1>
+    <form id="todo-form" aria-label="Add new task">
+      <input type="text" id="todo-input" placeholder="Add new task..." required autocomplete="off" aria-required="true" aria-label="Task description" />
+      <input type="date" id="todo-date" aria-label="Due date" />
+      <textarea id="todo-comment" placeholder="Add comments (optional)" aria-label="Additional comments"></textarea>
+      <button type="submit" class="add-btn" aria-label="Add task">Add</button>
+    </form>
+
+    <ul class="todo-list" id="todo-list" aria-live="polite"></ul>
+  </main>
+
+  
+  <section class="about-container" role="region" aria-labelledby="about-heading">
+    <h2 id="about-heading">About Me</h2>
+    <p>Hi! I'm <strong>Himmat Hekmatullah</strong>,  continuously learning and aspiring to grow as an IT Specialist</p>
+    <p>I enjoy developing practical projects that strengthen my skills and contribute to meaningful solutions.</p>
+
+
+
+   
+
+    <p>Feel free to connect with me on LinkedIn 
+      <a href="https://www.linkedin.com/in/hekmatullahhimmat/" target="_blank" rel="noopener noreferrer" aria-label="Himmat Hekmatullah LinkedIn Profile">
+        LinkedIn
+      </a>.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 by <strong>Himmat Hekmatullah</strong> </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
